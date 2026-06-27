@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get User Location</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1><i class="fa-solid fa-location-dot"></i> Get My Location</h1>
+        <p>Click the button to get your current location and address</p>
+
+        <button id="get-location">
+          <i class="fa-solid fa-location-crosshairs"></i> Get My Location
+        </button>
+      </header>
+
+      <div class="location">
+        <div class="location-details">
+          <h2>
+            <i class="fa-solid fa-location-crosshairs"></i> Location Details
+          </h2>
+          <hr />
+
+          <div class="latitude">
+            <h3><i class="fa-solid fa-globe"></i> Latitude</h3>
+            <h3 id="user-latitude">--</h3>
+          </div>
+
+          <div class="longitude">
+            <h3><i class="fa-solid fa-globe"></i> Longitude</h3>
+            <h3 id="user-longitude">--</h3>
+          </div>
+
+          <div class="accuracy">
+            <h3><i class="fa-solid fa-bullseye"></i> Accuracy</h3>
+            <h3 id="user-accuracy">--</h3>
+          </div>
+
+           
+        </div>
+      </div>
+
+      <div class="address">
+        <div class="address-details">
+          <h2><i class="fa-solid fa-map"></i> Address Details</h2>
+          <hr />
+
+          <div class="district">
+            <h3><i class="fa-regular fa-house"></i> District</h3>
+            <h3 id="district">--</h3>
+          </div>
+
+          <div class="city">
+            <h3><i class="fa-solid fa-city"></i> City</h3>
+            <h3 id="city">--</h3>
+          </div>
+
+          <div class="state">
+            <h3><i class="fa-solid fa-landmark"></i> State</h3>
+            <h3 id="state">--</h3>
+          </div>
+
+          <div class="country">
+            <h3><i class="fa-regular fa-flag"></i> Country</h3>
+            <h3 id="country">--</h3>
+          </div>
+
+          <div class="postal-code">
+            <h3><i class="fa-solid fa-envelope"></i> Postal Code</h3>
+            <h3 id="postal-code">--</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

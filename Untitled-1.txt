@@ -1,0 +1,26 @@
+ 1. What is navigator ?
+2. What i can do with navigator ?
+3. What is Geo-location API ?
+4. Why permission is important ?
+5. Syntax of Geo-location API ?
+6. Why this much is not important ?
+7. What is position ?
+8. Access the latitude ?
+9. Access the longitude ?
+10. Access the accuracy ?
+11. Why coords?
+12. What if user denies the permission ?
+13. Example of geo-location API ?
+14. Limitation of Geo-location API ?
+
+Concept: Reverse Geo-coding
+
+1. Problem of Geo-location API ?
+2. What is Reverse Geo-coding ?
+3. Who performs Reverse Geo-coding ?
+4. Real life analogy ?
+5. Where does the JavaScript get the address ?
+6. Fetch: URL - explanation ?
+7. What does the server send back ?
+
+
