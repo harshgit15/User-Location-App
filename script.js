@@ -70,13 +70,20 @@ async function getAddress(){
      const userCountry = data.address.country;
      document.querySelector("#country").textContent = userCountry;
 
-     const postalCode = data.address.postcode;
-     document.querySelector("#postal-code").textContent = postalCode;
+     const userFullAddress = data.display_name;
+     document.querySelector("#full-address").textContent = userFullAddress;
+
+      // console.log(data.display_name);
+     
 
      status.textContent = "✅ Location found successfully!";
   }catch(error){
     alert(error.message);
      status.textContent = "❌ Falied to fetch address!";
+     userDistrict.textContent = "--";
+     userCity.textContent = "--";
+     userState.textContent = "--";
+     userCountry.textContent = "--"; 
 
   }
 }
